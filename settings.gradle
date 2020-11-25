@@ -1,0 +1,5 @@
+include ':mobuleb'
+include ':base'
+include ':modulea'
+include ':app'
+rootProject.name = "HeadFirstARouter"
