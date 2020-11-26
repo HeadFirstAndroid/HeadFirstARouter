@@ -28,4 +28,26 @@
         android:onClick="goToModuleB"
         />
 
+    <Button
+        android:id="@+id/aservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用 AService"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moduleb"
+        android:onClick="getAService"
+        />
+
+    <Button
+        android:id="@+id/deeplink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DeepLink 模式"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aservice"
+        android:onClick="deeplink"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
